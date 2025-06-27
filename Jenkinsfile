@@ -18,7 +18,7 @@ pipeline {
 
         stage('Git Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/Rineeth-R/DevOps-Prod-BlueGreen-Pipeline.git'
+                git branch: 'master', url: 'https://github.com/Rineeth-R/DevOps-Prod-BlueGreen-Infra-Pipeline.git'
             }
         }
 
